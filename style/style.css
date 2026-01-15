@@ -125,22 +125,25 @@ body {
     padding-top: 32px;
 
 }
-.vissonDetails{
+
+.vissonDetails {
     color: rgba(14, 14, 14, 0.7);
 
-font-family: Fira Sans;
-font-style: Regular;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-padding: 24px 0 32px;
+    font-family: Fira Sans;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 24px 0 32px;
 }
-.vissonCardContainer{
+
+.vissonCardContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 24px;
 }
+
 .cardTitle {
     color: rgba(14, 14, 14, 0.8);
 
@@ -175,21 +178,27 @@ padding: 24px 0 32px;
     /* height: 100%; */
 
 }
-.btnBlue{
+
+.btnBlue {
     background: rgba(84, 144, 245, 1);
 }
+
 .bgGreen {
     background: rgba(198, 228, 214, 1);
 }
-.btnGreen{
+
+.btnGreen {
     background: rgba(9, 161, 92, 1);
 }
+
 .bgYellow {
     background: rgba(247, 235, 207, 1);
 }
-.btnYellow{
+
+.btnYellow {
     background: rgba(255, 194, 57, 1);
 }
+
 .learnBtn {
     color: rgba(255, 255, 255, 1);
     font-family: Fira Sans;
@@ -200,4 +209,83 @@ padding: 24px 0 32px;
     padding: 11px 20px 11px 20px;
     border: none;
     border-radius: 8px;
+}
+
+.quote {
+    margin-top: 32px;
+    padding: 48px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.quoteTitle {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-style: SemiBold;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 12px 0 4px;
+}
+
+.quoteSub {
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.opinionSection {
+    padding: 32px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table_heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgba(198, 228, 214, 1);
+color: rgba(14, 14, 14, 1);
+
+font-family: Fira Sans;
+font-style: SemiBold;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+padding: 24px;
+
+}
+td{
+    color: rgba(14, 14, 14, 1);
+
+font-family: Fira Sans;
+font-style: SemiBold;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+padding: 24px 18px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.selectItem{
+    color: rgba(14, 14, 14, 1);
+
+font-family: Fira Sans;
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+padding: 10px 14px 10px 14px;
+border: 1px solid rgba(14, 14, 14, 1);
+border-radius: 4px;
+background: rgba(198, 228, 214, 1);
 }
