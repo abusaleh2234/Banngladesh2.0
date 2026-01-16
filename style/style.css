@@ -204,10 +204,24 @@ body {
 
 .quote {
     margin-top: 32px;
-    padding: 48px 24px;
+    padding: 28px 24px 48px 24px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgba(255, 255, 255, 1);
+}
+
+.quotebg {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    ;
+    padding-top: 20px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
 }
 
 .quoteTitle {
@@ -245,38 +259,91 @@ table {
     justify-content: space-between;
     align-items: center;
     border: 1px solid rgba(14, 14, 14, 0.15);
-background: rgba(198, 228, 214, 1);
-color: rgba(14, 14, 14, 1);
-
-font-family: Fira Sans;
-font-style: SemiBold;
-font-size: 20px;
-font-weight: 600;
-line-height: 24px;
-padding: 24px;
-
-}
-td{
+    background: rgba(198, 228, 214, 1);
     color: rgba(14, 14, 14, 1);
 
-font-family: Fira Sans;
-font-style: SemiBold;
-font-size: 16px;
-font-weight: 600;
-line-height: 19px;
-padding: 24px 18px;
-border: 1px solid rgba(14, 14, 14, 0.15);
+    font-family: Fira Sans;
+    font-style: SemiBold;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 24px;
+
 }
-.selectItem{
+
+td {
     color: rgba(14, 14, 14, 1);
 
-font-family: Fira Sans;
-font-style: Medium;
-font-size: 16px;
-font-weight: 500;
-line-height: 19px;
-padding: 10px 14px 10px 14px;
-border: 1px solid rgba(14, 14, 14, 1);
-border-radius: 4px;
-background: rgba(198, 228, 214, 1);
+    font-family: Fira Sans;
+    font-style: SemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 24px 18px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.selectItem {
+    color: rgba(14, 14, 14, 1);
+
+    font-family: Fira Sans;
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    padding: 10px 14px 10px 14px;
+    border: 1px solid rgba(14, 14, 14, 1);
+    border-radius: 4px;
+    background: rgba(198, 228, 214, 1);
+}
+.newsFigure > img{
+    border-radius: 24px;
+
+}
+.newsCardContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.newsCard {
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 1);
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.newsCardtitle {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-style: Bold;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.newsDate {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.newsDetails {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.newsCardContent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
 }
