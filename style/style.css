@@ -296,15 +296,18 @@ td {
     border-radius: 4px;
     background: rgba(198, 228, 214, 1);
 }
-.newsFigure > img{
+
+.newsFigure>img {
     border-radius: 24px;
 
 }
-.newsCardContainer{
+
+.newsCardContainer {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
+
 .newsCard {
     border-radius: 24px;
     background: rgba(255, 255, 255, 1);
@@ -341,9 +344,45 @@ td {
     font-weight: 400;
     line-height: 24px;
 }
-.newsCardContent{
+.visAdd{
+    text-align: center;
+}
+.newsCardContent {
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 12px;
+}
+.doneteContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.donetebtn {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-style: Bold;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+.doneteInputContainer{
+    width: 950px;
+    margin: 0 auto;
+}
+.doneteInput{
+    padding: 20px;
+    width: 100%;
+    border: rgba(14, 14, 14, 0.15);
+    margin: 32px 0;
+    outline: none;
+}
+.doneteInput::placeholder{
+    text-align: center;
 }
