@@ -135,6 +135,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     gap: 24px;
 }
 
@@ -162,6 +163,10 @@ body {
 .vissonCard {
     padding: 32px;
     border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: normal;
 }
 
 .bgBlue {
@@ -172,6 +177,7 @@ body {
 
 .btnBlue {
     background: rgba(84, 144, 245, 1);
+    flex-grow: 1;
 }
 
 .bgGreen {
