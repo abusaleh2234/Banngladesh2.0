@@ -399,4 +399,72 @@ td {
     background: rgba(198, 228, 214, 1);
     padding: 48px;
     text-align: center;
+    margin-top: 80px;
+}
+.letterpadingb{
+    padding-bottom: 80px;
+}
+.letterHeading {
+    color: rgba(14, 14, 14, 1);
+    font-family: Fira Sans;
+    font-style: Bold;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.submitBtn {
+    color: rgba(255, 255, 255, 1);
+
+    font-family: Fira Sans;
+    font-style: SemiBold;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 15px 34px 15px 34px;
+    border-radius: 0px 8px 8px 0px;
+    background: rgba(0, 106, 80, 1);
+    border: none;
+}
+
+.emailInput {
+    padding: 18px 0 18px 40px;
+    width: 55%;
+    border: 1px solid white;
+    border-radius: 8px 0px 0px 8px;
+    outline: none;
+}
+
+.promise {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding-top: 24px;
+}
+
+.footerHeading {
+    color: rgba(14, 14, 14, 1);
+
+    font-family: Fira Sans;
+    font-style: Bold;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+}
+.hrstyle{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    margin: 32px 100px;
+}
+.socialLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+footer > .container{
+    padding: 50px 0;
 }
