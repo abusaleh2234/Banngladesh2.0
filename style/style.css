@@ -344,21 +344,25 @@ td {
     font-weight: 400;
     line-height: 24px;
 }
-.visAdd{
+
+.visAdd {
     text-align: center;
 }
+
 .newsCardContent {
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 12px;
 }
-.doneteContent{
+
+.doneteContent {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 .donetebtn {
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
@@ -372,17 +376,27 @@ td {
     background: rgba(255, 255, 255, 1);
     cursor: pointer;
 }
-.doneteInputContainer{
+
+.doneteInputContainer {
     width: 950px;
     margin: 0 auto;
 }
-.doneteInput{
+
+.doneteInput {
     padding: 20px;
     width: 100%;
     border: rgba(14, 14, 14, 0.15);
     margin: 32px 0;
     outline: none;
 }
-.doneteInput::placeholder{
+
+.doneteInput::placeholder {
+    text-align: center;
+}
+
+.letterCard {
+    border-radius: 24px;
+    background: rgba(198, 228, 214, 1);
+    padding: 48px;
     text-align: center;
 }
